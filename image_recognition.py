@@ -142,7 +142,7 @@ def image_recognition(pattern, frames):
             img2_with_rect = cv.rectangle(np.array(img2),
                                             (int(min_x), int(min_y)),
                                             (int(max_x), int(max_y)),
-                                            (255, 0, 0),
+                                            (255, 0, 255),
                                             4)
 
             img2 = Img.fromarray(img2_with_rect)
