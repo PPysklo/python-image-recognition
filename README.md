@@ -4,19 +4,19 @@ This Python script performs image recognition using SIFT (Scale-Invariant Featur
 
 ## Features
 
-Feature Detection with SIFT: Extracts key points and descriptors.
+* Feature Detection with SIFT: Extracts key points and descriptors.
 
-FLANN-based Matching: Matches features between images.
+* FLANN-based Matching: Matches features between images.
 
-Lowe's Ratio Test: Filters incorrect matches.
+* Lowe's Ratio Test: Filters incorrect matches.
 
-DBSCAN Clustering: Identifies the most significant feature region.
+* DBSCAN Clustering: Identifies the most significant feature region.
 
-Bounding Box Highlighting: Draws a rectangle around the detected pattern.
+* Bounding Box Highlighting: Draws a rectangle around the detected pattern.
 
-Supports Image and Video Processing: Works with static images and .MOV video files.
+* Supports Image and Video Processing: Works with static images and .MOV video files.
 
-Graphical File Selection: Uses Tkinter for an easy-to-use file picker.
+* Graphical File Selection: Uses Tkinter for an easy-to-use file picker.
 
 ## Requirements
 
@@ -40,3 +40,16 @@ The script will display the detected area with a bounding box if a match is foun
 ## Example Output
 
 When a pattern is detected, the program highlights the region:
+| Pattern  | 
+| ------------- |
+| <img src="./images/pattern_image.jpg"> | 
+
+
+| Result | 
+| ------------- | 
+| <img src="./images/result_image.JPG"> | 
+
+
+
+
+
